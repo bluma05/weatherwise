@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weatherwise - Painel de Temperatura</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Painel de Temperatura</h1>
+    <div class="temp-panel">
+      <div class="temp-display" id="temp-display">-- °C</div>
+      <input type="range" min="-10" max="45" value="22" id="temp-slider">
+      <div class="temp-labels">
+        <span>-10°C</span>
+        <span>45°C</span>
+      </div>
+    </div>
+    <div class="info" id="info"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
